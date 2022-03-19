@@ -2410,3 +2410,107 @@ section.section .section-title span.bg-green {
     bottom: 0;
     transform: translate(-50%, -75%)
 }
+.Tokenomic {
+    position: relative;
+    z-index: 2;
+    min-height: 116.3rem;
+    background: url(../images/bg-tokenomic.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: -11rem
+}
+
+@media (max-width: 991px) {
+    .Tokenomic {
+        min-height: 1572px;
+        background: url(../images/bg-tokenomic-tb.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-bottom: -138px
+    }
+}
+
+@media (max-width: 430px) {
+    .Tokenomic {
+        background: url(../images/bg-tokenomic-mb.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 682px;
+        margin-bottom: -60px
+    }
+}
+
+.Tokenomic-wrapper-image {
+    transform: translate(0, -100px);
+    max-width: 99rem;
+    margin: auto
+}
+
+@media (max-width: 991px) {
+    .Tokenomic-wrapper-image {
+        transform: none
+    }
+}
+
+.Tokenomic-wrapper-image img {
+    width: 100%
+}
+
+.Roadmaps {
+    min-height: 124.8rem;
+    background: url(../images/bg-roadmaps.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: -14.5rem
+}
+
+@media (max-width: 991px) {
+    .Roadmaps {
+        min-height: 2312px;
+        background: url(../images/bg-roadmaps-tb.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-bottom: -158px
+    }
+}
+
+@media (max-width: 430px) {
+    .Roadmaps {
+        background: url(../images/bg-roadmaps-mb.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 1003px;
+        margin-bottom: -70px
+    }
+}
+
+.Roadmaps-wrapper-image {
+    max-width: 127.5rem;
+    margin: auto
+}
+
+@media (max-width: 991px) {
+    .Roadmaps-wrapper-image.desktop {
+        display: none
+    }
+}
+
+.Roadmaps-wrapper-image.mobile {
+    display: none
+}
+
+@media (max-width: 991px) {
+    .Roadmaps-wrapper-image.mobile {
+        display: block
+    }
+}
+
+.Roadmaps-wrapper-image img {
+    width: 100%
+}
