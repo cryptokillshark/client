@@ -2335,6 +2335,18 @@ section.section .section-title span.bg-green {
     margin-bottom: -9.2rem
 }
 
+.top-gun {
+    position: absolute;
+    height: 20%;
+    top: 30%;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.top-gun img {
+    transform: translateX(-4%);
+}
+
 @media (max-width: 991px) {
     .Banner {
         min-height: 3765px;
